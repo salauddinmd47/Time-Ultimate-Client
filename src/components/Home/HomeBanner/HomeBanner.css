@@ -1,0 +1,17 @@
+.main-banner{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.596),rgba(0, 0, 0, 0.800)), url(../../../images/bannerbg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.banner-heading{
+    font-size: 100px;
+    color: white;
+}
+@media only screen and (max-width: 668px){
+    .banner-heading{
+        font-size: 50px;
+    }
+}

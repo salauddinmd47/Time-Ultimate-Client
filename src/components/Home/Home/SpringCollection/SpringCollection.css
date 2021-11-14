@@ -1,0 +1,31 @@
+.collection-bg{
+    background-image: url('../../../../images/collectionbg\ \(1\).jpg');
+    height: 100vh;
+}
+.collection-heading{
+    background-image:linear-gradient(rgba(255, 99, 71, 0.15),rgba(255, 99, 71, 0.13)), url('../../../../images/springCollection.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+     
+    border-radius: 100px 100px 0 0 ;
+    
+     
+}
+
+.collection-heading h2{
+    font-size: 60px;
+     color:brown;
+}
+.spring-heading{
+   background-color: rgba(0, 0, 0, 0.493);
+   padding: 5px;
+   border-radius: 5px;
+}
+@media only screen and (max-width: 668px){
+    .collection-heading h2, h4{
+        font-size: 53px;
+        
+    }
+}

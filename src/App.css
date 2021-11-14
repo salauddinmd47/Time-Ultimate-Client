@@ -1,5 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 .App {
-  text-align: center;
+   background-color: #333;
+   color: white;
+   font-family: 'Oswald', sans-serif;
+}
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper{
+  background-color: black !important
+}
+li{
+  list-style: none;
+}
+li a{
+  text-decoration: none;
+  color: grey;
 }
 
 .App-logo {
